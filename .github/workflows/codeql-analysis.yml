@@ -30,11 +30,11 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: 15
+          java-version: 16
           distribution: adopt
 
       - name: Build
-        run: ./gradlew --no-daemon build
+        run: ./gradlew build
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v1
