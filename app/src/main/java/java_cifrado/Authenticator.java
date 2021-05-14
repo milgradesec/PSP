@@ -36,10 +36,7 @@ public class Authenticator {
     public static boolean validateUsername(String username) {
         Pattern p = Pattern.compile("[a-z]{8}");
         Matcher m = p.matcher(username);
-        if (m.find()) {
-            return true;
-        }
-        return false;
+        return m.find();
     }
 
     /**
@@ -52,9 +49,6 @@ public class Authenticator {
     public static boolean validatePassword(String password) {
         Pattern p = Pattern.compile("[a-zA-Z0-9]{10,30}");
         Matcher m = p.matcher(password);
-        if (m.find()) {
-            return true;
-        }
-        return false;
+        return m.find();
     }
 }
