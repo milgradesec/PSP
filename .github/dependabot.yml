@@ -2,6 +2,38 @@ version: 2
 
 updates:
   - package-ecosystem: "gradle"
-    directory: "/"
+    directory: "/adivinar_numero_cliente"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle"
+    directory: "/adivinar_numero_cliente_simple"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle"
+    directory: "/adivinar_numero_servidor"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle"
+    directory: "/adivinar_numero_servidor_simple"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle"
+    directory: "/aleatorios"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle"
+    directory: "/buffer_compartido"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle"
+    directory: "/cena_filosofos"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle"
+    directory: "/cifrado"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle"
+    directory: "/colaborar"
     schedule:
       interval: "weekly"
