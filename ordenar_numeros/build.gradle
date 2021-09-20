@@ -6,7 +6,7 @@ apply plugin: 'application'
 mainClassName = 'ordenarNumeros.Main'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
