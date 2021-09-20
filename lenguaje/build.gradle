@@ -6,7 +6,7 @@ apply plugin: 'application'
 mainClassName = 'lenguaje.Main'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
