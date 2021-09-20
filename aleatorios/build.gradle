@@ -6,7 +6,7 @@ apply plugin: 'application'
 mainClassName = 'aleatorios.Main'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {

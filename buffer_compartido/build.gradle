@@ -6,7 +6,7 @@ apply plugin: 'application'
 mainClassName = 'ejercicio1.Main'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {

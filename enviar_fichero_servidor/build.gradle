@@ -6,7 +6,7 @@ apply plugin: 'application'
 mainClassName = 'servidor.Main'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
